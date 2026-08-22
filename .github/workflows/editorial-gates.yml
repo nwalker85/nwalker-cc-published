@@ -1,0 +1,15 @@
+name: Editorial gates
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  editorial:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Leak/name/link gates (stub)
+        run: |
+          echo "WP3 editorial CI placeholder for published-content PRs"
+          echo "Gates: leak scan, name policy, link integrity, voice warn"
